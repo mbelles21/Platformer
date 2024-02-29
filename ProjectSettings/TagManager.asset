@@ -6,6 +6,7 @@ TagManager:
   tags:
   - question
   - brick
+  - water
   layers:
   - Default
   - TransparentFX

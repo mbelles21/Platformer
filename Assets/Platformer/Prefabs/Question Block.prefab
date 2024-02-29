@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9127855732131310088}
   - component: {fileID: 6670207262758115761}
   - component: {fileID: 7236583461272527596}
+  - component: {fileID: -4978769764530189115}
   m_Layer: 0
   m_Name: Question Block
   m_TagString: question
@@ -92,7 +93,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5485306838129488364}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b6ae24e00c4517841bcf997aa050f92b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -110,7 +111,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1add44098c541cd47a7f47446f68f52a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.757
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -194,3 +195,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-4978769764530189115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5485306838129488364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4d3735d5d89dbe4f9fece97e06c43d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalSections: 5
+  updateInterval: 0.3
